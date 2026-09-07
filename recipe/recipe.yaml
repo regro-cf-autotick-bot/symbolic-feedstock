@@ -16,7 +16,7 @@ source:
 
 build:
   # Windows build skipped due to OOM, re-enable on the feedstock
-  number: 0
+  number: 1
   skip: win
   script:
     - ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
